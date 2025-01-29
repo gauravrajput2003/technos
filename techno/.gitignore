@@ -1,3 +1,8 @@
+node_modules/
+# Vite build output
+dist/
+.vite/
+.cache/
 # Logs
 logs
 *.log

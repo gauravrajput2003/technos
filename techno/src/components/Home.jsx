@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const changeLearnMore = () => {
-    navigate("/about"); // Use the path string to navigate
+    navigate("/about"); 
   };
   return (
     <div className="relative w-full h-screen">
@@ -30,11 +30,10 @@ const Home = () => {
 
         {/* Image Section */}
         <div className="w-full md:w-1/2 h-64 md:h-full bg-cover bg-center relative" style={{ backgroundImage: `url(${heroImage})` }}>
-          <div className="absolute  bg-black bg-opacity-30"></div> {/* Soft overlay for better visibility */}
+          <div className="absolute  bg-black bg-opacity-30"></div> 
         </div>
       </div>
     </div>
   );
 };
-
 export default Home;
