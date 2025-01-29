@@ -20,7 +20,7 @@ const Navbar = () => {
           <img
             src={LOGO_URL}
             alt="logo"
-            className="h-20 w-auto transition-transform duration-300 transform hover:scale-110"
+            className="h-20 w-auto p-2 rounded-full shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-2xl"
           />
         </NavLink>
 
