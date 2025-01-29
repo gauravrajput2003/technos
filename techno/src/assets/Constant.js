@@ -10,3 +10,4 @@ export const imgPerson8="https://randomuser.me/api/portraits/men/5.jpg";
 export const imgPerson9="https://randomuser.me/api/portraits/men/79.jpg";
 export const imgPerson10="https://randomuser.me/api/portraits/men/37.jpg";
 export const imgPerson11="https://randomuser.me/api/portraits/men/4.jpg";
+export const LOGO_URL="https://ld-contest-drafts.s3.amazonaws.com/original/473-6320.jpg";
