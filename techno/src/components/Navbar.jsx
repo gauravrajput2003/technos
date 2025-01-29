@@ -16,24 +16,18 @@ const Navbar = () => {
           to="/"
           className="text-white text-4xl font-extrabold tracking-wide hover:text-yellow-300 transition duration-300"
         >
-          <img
-            src={LOGO_URL}
-            alt="logo"
-            className="h-20 w-auto transition-transform duration-300 transform hover:scale-110"
-          />
+          <img src={LOGO_URL} alt="logo" className="h-10 w-auto" />
         </NavLink>
 
         <div className="flex items-center">
-          <ul
-            className={`md:flex space-x-6 text-lg ${isOpen ? "block" : "hidden"} md:block`}
-          >
+          <ul className="hidden md:flex space-x-6 text-lg">
             <li>
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md"
-                    : "text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl"
+                    ? 'text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md'
+                    : 'text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl'
                 }
               >
                 About
@@ -44,8 +38,8 @@ const Navbar = () => {
                 to="/services"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md"
-                    : "text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl"
+                    ? 'text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md'
+                    : 'text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl'
                 }
               >
                 Services
@@ -56,10 +50,9 @@ const Navbar = () => {
                 to="/contact"
                 className={({ isActive }) =>
                   isActive
-                    ? "text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md"
-                    : "text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl"
+                    ? 'text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md'
+                    : 'text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl'
                 }
-                onClick={toggleMenu}
               >
                 Contact
               </NavLink>
@@ -96,8 +89,8 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md"
-                  : "text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl"
+                  ? 'text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md'
+                  : 'text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl'
               }
               onClick={toggleMenu}
             >
@@ -109,8 +102,8 @@ const Navbar = () => {
               to="/services"
               className={({ isActive }) =>
                 isActive
-                  ? "text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md"
-                  : "text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl"
+                  ? 'text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md'
+                  : 'text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl'
               }
               onClick={toggleMenu}
             >
@@ -122,8 +115,8 @@ const Navbar = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md"
-                  : "text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl"
+                  ? 'text-white font-semibold bg-purple-800 px-4 py-2 rounded-lg shadow-md'
+                  : 'text-white hover:text-yellow-300 px-4 py-2 rounded-lg transition duration-300 font-bold text-2xl'
               }
               onClick={toggleMenu}
             >
